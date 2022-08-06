@@ -1,8 +1,179 @@
-/*
-Colors:
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+body, h1, h2, h3, h4, .v1 .v2{
+	font-family: "Manrope", sans-serif;
+	padding: 0;
+	margin: 0;
+	
+}
 
-Text: 1A1A1A
-Green: #00B172
-White: #FFF
+header{
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	align-items: center;
+	height: 60px;
+	margin: 12px 38px;
+}
 
-*/
+header > img{
+	height: 80%;
+}
+
+.menu{
+	 display: flex;
+	 flex-flow: row wrap;
+	 justify-content: flex-end;
+	 list-style: none;	
+	 margin: 0;
+	 padding: 0;
+}
+
+.menu > li {
+	padding-left: 32px;
+}
+
+.section1{
+	background-image: url("../images/landing.jpg");
+	background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 800px;
+    width: 100%;
+    text-align: center;
+}
+
+.s1{
+	margin: 0 25%;
+	height: 800px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+h1{
+	color: white;
+	font-weight: 700;
+	font-size: 4em;
+	/*font-size: 64px;*/
+}
+
+h2{ 
+	color: white;
+	font-weight: 700;
+	font-size: 2rem;
+	/*font-size: 30px;*/
+}
+
+h2.underline{
+	border-bottom: 4px solid white;
+    margin-bottom: 40px;
+	display: inline;
+	padding: 40px 0 10px;
+}
+
+.black{ 
+	color: #1A1A1A;
+    padding: 40px 0 7px;
+    border-bottom: 4px solid #00B172;
+    margin-bottom: 40px;
+}
+
+h3{
+	color: white;
+	font-weight: 700;	
+	/*font-weight: bold;*/
+	font-size: 1.5rem;
+	/*font-size: 24px;*/
+}
+
+.green{
+	color:  #00B172;
+}
+
+.regular{
+	font-weight: 300;
+}
+
+h4{
+	color: #1A1A1A;
+	font-weight: 400;
+	font-size: 1.25em;
+	/*font-size: 20px;*/
+}
+
+p{
+	color: white;
+	font-weight: 400;
+	font-size: 1.125em;
+}
+
+.section2{
+    height: 650px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.section3{
+	background-color: #00B172;
+	display: flex;
+	justify-content:space-between;
+	padding: 80px;
+    margin: 0 22px;
+}
+
+.small{
+	width: 33%;
+}
+
+#features{
+	display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    width: 80%;
+	margin: 0 auto;
+}
+
+.box{
+	text-align: center;
+}
+.box img{
+	padding-bottom: 40px;
+}
+
+.box h3,
+h4{
+	padding-bottom: 26px;
+}
+
+
+.final{
+	margin-top: 64px;
+}
+.final h3{
+    line-height: 2.6em;
+}
+
+.kanya{
+	width: 51%;
+}
+.img-final{
+	display: flex;
+    justify-content: flex-end;
+
+}
+
+.logo-final{
+	position: absolute;
+    left: 43%;
+    width: 9%;
+    margin-top: 16%;
+    display: block;
+}
+
+nav{
+
+	position: fixed;
+    background-color: white;
+    width: 100vw;
+}

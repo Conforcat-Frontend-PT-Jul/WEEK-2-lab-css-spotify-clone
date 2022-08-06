@@ -6,3 +6,144 @@ Green: #00B172
 White: #FFF
 
 */
+body{
+    font-family: sans-serif;
+}
+.header{
+    margin-top: 60px;
+}
+.nav {
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    position: fixed;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    text-align:end;
+    margin-bottom: 10px;
+    z-index: 1
+}
+.nav il{
+    margin-right: 30px;
+}
+.nav img{
+    object-fit: cover;
+    height: 45px;
+    margin-top: 5px;
+}
+.header img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.header h1 {
+    position: absolute;
+    top: 30vh;
+    width: 100vw;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 300;
+    font-size: 5rem;
+    padding: 20px;
+}
+.header div{
+    height: 600px;
+    background-image:
+    url("../images/soup.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.headerText{
+    position: absolute;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-weight: 150;
+    font-size: 2rem;
+    top: 55vh;
+    padding: 20px;
+}
+.headerMusic {
+    padding: 10px;
+  }
+
+
+.div-2{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.section-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding: 0px;
+    margin: 0px auto;
+}
+
+.section-2 article{
+    padding: 10px;
+    margin: 10px;
+}
+.section-2 img{
+    width: 50px;
+    height: 50px;
+    }
+.section-2 h3{
+    color: #00B172;
+    font-size: 15px;
+}
+.section-2 p{
+font-size: 8px;
+padding: 0px 20px;
+}
+
+
+.section3 {
+    background-color: #00B172;
+    padding: 70px;
+    position: relative;
+    
+}
+.section3 .logo{
+    position: absolute;
+    top: 250px;
+    width: 100px;
+    left: calc(47vw - 50px);
+}
+.spoty-descript{
+    display: grid;
+    grid-template-columns: 60% 40%;
+   
+}
+.left-block {
+    color: White;
+    max-width: 350px;
+}
+.title{
+    margin-bottom: 50px;
+    width: 325px;
+}
+.left-block h2 {
+    border-bottom: 2px solid white;
+    padding-bottom: 8px;
+    display: inline; 
+}
+.left-block h3 {
+    margin-bottom: 25px;
+    margin-top: 45px;
+}
+.left-block p{
+    width: 250px;
+}
+.right-block{
+    max-width: 200px;
+}
+.right-block img {
+    width: 300px;
+    height: 500px;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+

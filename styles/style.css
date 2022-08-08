@@ -6,3 +6,214 @@ Green: #00B172
 White: #FFF
 
 */
+.body {
+    font-family: 'Open Sans', sans-serif;
+    max-width: 1000px;
+}
+
+/*------------------------------DANI-------------------------------*/
+#nav-bar {
+    background-color: white;
+    text-align: left;
+    position: fixed;
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+    font-size: large;
+    top: 0;
+}
+
+.logoheader {
+    display: flex;
+    justify-content: left;
+    align-items: left;
+    padding: 0px 0px 0px 20px;
+    width: 200px;
+    margin: 15px;
+}
+
+.nav-bar-ul {
+    display: flex;
+    align-content: column;
+    list-style-type: none;
+    justify-content: right;
+    margin: 0px;
+    padding: 30px 50px 0px 0px;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+
+.nav-bar-ul a {
+    color: black;
+    text-decoration: none;
+    font-size: 1.4em;
+
+}
+
+.nav-bar-ul li {
+    padding: 0px 0px 0px 30px;
+
+}
+
+#landing-picture {
+    background-image: url("../images/landing.jpg");
+    background-position: bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 860px;
+    padding: 120px 0px 0px 0px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+    line-height: 2.5em;
+
+}
+
+.title {
+    font-size: 4em;
+    font-weight: 600;
+    padding-top: 200px;
+    padding-left: 20px;
+}
+
+.titleinfo {
+    font-size: 1.3em;
+    font-weight: lighter;
+    text-align: center;
+    justify-content: center;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 1.4em;
+
+}
+
+/*------------------------------MAVA-------------------------------*/
+.fieldset {
+    text-align: center;
+    border: none;
+}
+
+#whats-on-spotify {
+    display: block;
+}
+
+#whats-on-spotify-wrapper {
+    display: grid;
+    grid-template-rows: 1fr 3fr;
+}
+
+#whats-on-spotify-header {
+    display: flex;
+    text-align: center;
+    justify-content: center;
+}
+
+.icon-size {
+    width: 130px;
+    height: 100px;
+}
+
+.icon {
+    display: grid;
+}
+
+.black-font {
+    color: #080909;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    border-bottom: 4px solid #00B172;
+    width: fit-content;
+    height: 50px;
+}
+
+.green-font {
+    color: #00B172;
+    font-size: x-large;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.text-size {
+    font-family: 'Open Sans', sans-serif;
+    font-size: large;
+
+}
+
+.alig-icons {
+    display: grid;
+    gap: 10px;
+    padding: 50px;
+    grid-template-areas: '. . .';
+}
+
+
+/*------------------------------AARON-------------------------------*/
+
+#green-section {
+    height: fit-content;
+}
+
+#green-bg-grid {
+    background-color: #00B172;
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 50px
+}
+
+#first-row {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+}
+
+#info {
+    display: grid;
+
+    color: #FFF;
+}
+
+#info h2 {
+    color: #FFF;
+    font-size: xx-large;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    border-bottom: 4px solid #FFF;
+    width: fit-content;
+}
+
+#features h3 {
+    font-size: large;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#features {
+    display: grid;
+    grid-template-columns: 35vw 20vw;
+}
+
+#info p {
+    font-size: medium;
+    font-weight: 200;
+    line-height: 1.7em;
+    font-family: 'Open Sans', sans-serif;
+}
+
+#logo-spotify {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo-spotify img {
+    width: 100px;
+}
+
+#spotify-app {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#spotify-app img {
+    width: 240px;
+
+}

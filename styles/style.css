@@ -9,7 +9,7 @@ html{
 /*Estilos del header*/
 header{
     background-image: url(../images/landing.jpg);
-    height: 900px;
+    height: 800px;
     background-repeat: no-repeat;
     background-size: 100vw auto;
     background-position: center;
@@ -43,7 +43,7 @@ nav ul li a{
     justify-content: center;
     align-items: center;
     color: #FFF;
-    height: 900px;
+    height: 800px;
 }
 #header-info h1{
     font-size: 4rem;

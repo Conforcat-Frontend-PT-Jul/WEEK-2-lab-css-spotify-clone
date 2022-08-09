@@ -6,3 +6,176 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+body{
+ margin:0px;  
+ padding: 0px;
+ font-size: 16px;
+ max-width: 1000px;
+ margin: 0px auto 0px auto;
+}
+
+header{
+    padding: 10px 0 10px 0;
+    margin: 0px;
+}
+
+main, section{
+    width: 100%;
+	margin: 0 auto;
+}
+
+h1 {
+    color: #fff;
+    text-align: center;
+    font-size: 4em;
+    line-height: 0em;
+}
+
+h2 {
+    font-size: 2em;
+    text-align: center;
+  }
+
+h3 {
+    color:#00B172;
+    font-size: 30px;
+}
+
+/*Navigation Menu*/
+
+header nav {
+    position: fixed;
+    width: 1000px;
+}
+
+nav ul.menu li {
+    display: inline;    
+}
+  
+nav ul.menu li img {
+    float: left;
+    width: 100px;
+}
+  
+ul.menu a {
+    text-decoration: none;
+    color: inherit;
+    font-size: 22px;
+    padding: 5px 5px;
+    float: right;
+}
+
+/*banner*/
+
+.banner {
+    margin-top: 80px;
+    background-image:url("../images/landing.jpg");
+    background-size: cover;
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+ }
+ 
+ .banner p {
+    color: white;
+    font-size: 22px;
+    text-align: center;
+    line-height: 30px;
+ }
+
+ /*section what's on spotify*/
+
+ .introduction{
+    display: grid; 
+    grid-template-rows: 20% 70%;
+    grid-template-columns: 1fr 1fr 1fr; 
+    text-align: center;
+ }
+
+ .introduction p {
+    font-size: 15px;
+ }
+
+ .titulo {
+    grid-column: 1/4;
+ }
+
+ figure{
+    margin: 0px;
+}
+
+.music {
+	flex: 1 1 0px;
+    padding: 30px;
+}
+
+.music_pic img {
+    width : 40%;
+ }
+
+  /*section it's as yeezy*/
+
+.browser{
+    background-color: #00B172;
+    padding:20px;
+    display: grid;
+    grid-template-columns: 30% 60%;
+    grid-template-rows: 10% 1fr 1fr 1fr;
+    justify-content: space-between;
+    height: 800px;
+}
+
+.browser h2{
+    text-align: left;
+    color: white;
+    text-decoration: underline;
+    margin: 0;
+}
+
+.browser h3 {
+    color: white;
+}
+
+.browser p {
+    color: white;
+    font-size: 22px;
+}
+
+.icon_pic img {
+    width : 20%;
+}
+
+.title_section2{
+    grid-column: 1/3;
+}
+
+.search{
+    grid-row:2/3;
+}
+
+.browse{
+    grid-row:3/4;
+}
+
+.discover{
+    grid-row:4/5;
+
+}
+
+.icon{
+    grid-row: 3/4;
+}
+
+.spotify{
+position: relative;
+left:630px;
+bottom: 800px;
+}
+
+.spotify_pic img {
+    width : 40%;
+}

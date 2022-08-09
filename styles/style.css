@@ -86,7 +86,7 @@ nav a {
 /* Francisco y Clau */
 
 .container3 {
-  background-color: #59b26b;
+  background-color: #1DB954;
   padding: 80px;
   margin: 0 30px;
   color: #d1eedc;
@@ -148,16 +148,50 @@ nav a {
     font-size: 1em;
     font-weight: 300;
 }
+
 /*********** SECTION ZOE ************/
 .container2 {
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding: 5rem 0;
+}
+
+.container2 h2 {
+  font-size: 3rem;
+  border-bottom: 10px solid #1DB954;
+  padding-bottom: 3px;
+}
+
+.container2 h3 {
+  font-size: 2rem ;
+  color: #1DB954;
+}
+
+.container2 p {
+  font-size: 1.5rem;
+  font-weight: 300;
+  color: lightslategray;
 }
 
 .col__3 {
   display: flex;
   justify-content: center;
+  padding: 0 10%;
+}
+
+.features {
+  padding: 5rem;
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  text-align: center;
+}
+
+.features__icon {
+  width: 15em;
 }
 
 /*********** SECTION ZOE ************/

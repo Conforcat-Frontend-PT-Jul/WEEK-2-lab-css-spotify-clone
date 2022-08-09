@@ -38,6 +38,10 @@ nav ul li a{
     height: auto;
 }
 #header-info{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
     color: #FFF;
     height: 110vh;
 }
@@ -60,7 +64,6 @@ nav ul li a{
 .container-column{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
 }
 .container-space-between{
@@ -83,12 +86,11 @@ nav ul li a{
 #spotify-products article{
     width: 30vw;
     height: 50vh;
-    margin: 2rem 0;
-    box-sizing: border-box;
+    margin: 5rem 0 2rem;
 }
 #spotify-products article img{
-    width: 100px;
-    height: auto;
+    width: auto;
+    height: 80px;
 }
 #spotify-products article h3{
     font-family: 'Archivo', sans-serif;

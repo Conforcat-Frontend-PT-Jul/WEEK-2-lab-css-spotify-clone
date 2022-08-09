@@ -6,3 +6,113 @@ Green: #00B172
 White: #FFF
 
 */
+
+
+html {
+    margin: 0 0px;
+    font-size: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.navbar {
+    position: fixed;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    flex-direction: row;
+    overflow: hidden;
+    background-color: #FFF;
+    top: 0;
+    width: 96%;
+    padding: 20px 80px 20px 40px;
+    /* margin-right: 80px; */
+    margin: 0 auto;
+}
+
+.navbar img {
+    width: 300px;
+}
+
+ul {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+.navbar ul li{
+    list-style: none;   
+}
+
+.navbar a {
+    text-decoration: none;
+    font-size: 3.1rem;
+    font-weight: lighter;
+    color: #1A1A1A;
+}
+
+.hdr {
+    /* padding: 18px; */
+    margin-top: 100px;
+    height: 800px;
+    background-image: url(../images/landing.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: #FFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1{
+    font-size: 8rem;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 4.5rem;
+    font-weight: 500;
+    text-align: center; 
+    width: 100%;
+    margin-bottom: 5px;
+}
+
+h3 {
+    font-size: 4rem;
+    font-weight: 500;
+    width: 65%;
+    text-align: center;
+}
+
+/* .green {
+    color: #00B172;
+} */
+
+.green-line {
+    border: 2px solid #00B172;
+    width: 450px;
+    margin-top: 0;
+} 
+
+.center-block {
+    padding: 10px 0;
+    margin: 0 auto;
+}
+
+.features {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 50px;
+}
+
+.icons {
+    width: 100px;
+}
+
+.features-wrapper {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
